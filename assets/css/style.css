@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #0f0e17;
+}
+
+@keyframes pemuat {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.kotak {
+  background: #ddd;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+#kt1 {
+  margin-top: -25px;
+  margin-left: -25px;
+  animation: pemuat 675ms ease-in-out 0s infinite alternate;
+}
+
+#kt2 {
+  margin-top: -25px;
+  animation: pemuat 675ms ease-in-out 75ms infinite alternate;
+}
+
+#kt3 {
+  margin-top: -25px;
+  margin-left: 15px;
+  animation: pemuat 675ms ease-in-out 150ms infinite;
+}
+
+#kt4 {
+  margin-left: -25px;
+  animation: pemuat 675ms ease-in-out 225ms infinite;
+}
+
+#kt5 {
+  animation: pemuat 675ms ease-in-out 300ms infinite;
+}
+
+#kt6 {
+  margin-left: 15px;
+  animation: pemuat 675ms ease-in-out 375ms infinite;
+}
+
+#kt7 {
+  margin-top: 15px;
+  margin-left: -25px;
+  animation: pemuat 675ms ease-in-out 450ms infinite;
+}
+
+#kt8 {
+  margin-top: 15px;
+  animation: pemuat 675ms ease-in-out 525ms infinite;
+}
+
+#kt9 {
+  margin-top: 15px;
+  margin-left: 15px;
+  animation: pemuat 675ms ease-in-out 600ms infinite;
+}
