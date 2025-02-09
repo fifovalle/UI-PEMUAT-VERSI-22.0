@@ -33,7 +33,7 @@
 
 🔍 Berikut tampilan antarmuka proyek ini:
 
-![Image](https://github.com/user-attachments/assets/8c11e73f-e525-4e31-ae94-3548350765b5)
+![Image](https://github.com/user-attachments/assets/ba6a774e-44f1-47c2-9429-b22b0d7938be)
 
 ---
 
@@ -62,7 +62,7 @@ Jika Anda punya ide, fitur tambahan, atau menemukan bug, silakan buat **pull req
 1️⃣ **Clone repositori:**
 
 ```sh
-  git clone https://github.com/fifovalle/UI-KARTU-VERSI-1.0.git
+  git clone https://github.com/fifovalle/UI-PEMUAT-VERSI-22.0.git
 ```
 
 2️⃣ **Buka file `index.html` di browser favorit Anda.**
